@@ -4,7 +4,3 @@
 
 layout: default
 ---
-
-# Main body
-
-Yay!
