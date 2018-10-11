@@ -1,0 +1,64 @@
+title: Mindi Kessenich
+email: hello@mindikessenich.com
+description: Real Estate, Remodeling, Design
+baseurl: ""
+url: "https://mindikessenich.com"
+
+lang: en-us
+timezone: America/Chicago
+
+markdown: kramdown
+permalink: /:title/
+
+logo: /assets/images/logo-tk.jpg
+
+sass:
+  sass_dir: assets/_sass
+  style: compressed
+
+author:
+  name: "Mindi Kessenich"
+  picture: /assets/images/headshot-tk.jpg
+  email: hello@mindikessenich.com
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author:
+        name: Mindi Kessenich
+        email: hello@mindikessenich.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jemoji
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
