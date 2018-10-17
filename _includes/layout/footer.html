@@ -1,0 +1,9 @@
+<footer>
+  {% assign current_year = 'now' | date: "%Y" | plus: 0 %}
+  <p>© 2018{% if current_year > 2018 %} - {{current_year}}{% endif %} Mindi Kessenich</p>
+  <a href="http://www.propertyrevival.net" target="_blank">
+    <img class="affiliated-logo"
+       src="/assets/images/prr-logo-sage-384x111.png"
+       alt="Property Revival Realty" />
+   </a>
+</footer>

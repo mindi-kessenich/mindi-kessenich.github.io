@@ -3,9 +3,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  {% include analytics.html %}
+  {% include meta/favicon.html %}
 
   <link rel="stylesheet" href="{{ "/assets/css/main.css?" | prepend: site.baseurl }}{{ site.time | date: "%s" }}">
+  <link href="https://fonts.googleapis.com/css?family=Assistant:200,400,700" rel="stylesheet">
 
   <title>{% if page.title %}{{ page.title }} - Mindi Kessenich{% else %}Mindi Kessenich - {{ site.description }}{% endif %}</title>
 </head>

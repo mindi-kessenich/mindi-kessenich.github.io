@@ -1,6 +1,6 @@
 title: Mindi Kessenich
 email: hello@mindikessenich.com
-description: Real Estate, Remodeling, Design
+description: Madison, WI - Real Estate & Design
 baseurl: ""
 url: "https://mindikessenich.com"
 
@@ -10,7 +10,7 @@ timezone: America/Chicago
 markdown: kramdown
 permalink: /:title/
 
-logo: /assets/images/logo-tk.jpg
+#logo: /assets/images/logo-tk.jpg
 
 sass:
   sass_dir: assets/_sass
@@ -18,7 +18,7 @@ sass:
 
 author:
   name: "Mindi Kessenich"
-  picture: /assets/images/headshot-tk.jpg
+  #picture: /assets/images/headshot-tk.jpg
   email: hello@mindikessenich.com
 
 defaults:

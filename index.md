@@ -4,4 +4,5 @@
 
 layout: default
 ---
- 
+
+{% include forms/contact.html %}
