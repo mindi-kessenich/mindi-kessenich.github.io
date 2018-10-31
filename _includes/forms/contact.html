@@ -1,14 +1,18 @@
 <div class="contact-form">
   <h3 class="form-title">Giving the Gift of Home</h3>
-  <p>Home is an important place where you begin and end each day. It should inspire you, calm you, and recharge you. I can help make that happen. Whtether you are buying, selling, remodeling, or redecorating, I'd love to help. Call or email me below to chat, get more info, or ask for an estimate.</p>
+  <p>Home is an important place where you begin and end each day. It should inspire you, calm you, and recharge you. I can help make that happen. Whether you are buying, selling, remodeling, or redecorating, I'd love to help. Call or email me below to chat, get more info, or ask for an estimate.</p>
 
-  <form class="form">
+  <form class="form" action="https://formspree.io/&#109;&#105;&#110;&#100;&#105;&#64;&#112;&#114;&#111;&#112;&#101;&#114;&#116;&#121;&#114;&#101;&#118;&#105;&#118;&#97;&#108;&#46;&#110;&#101;&#116;">
+    <input type="hidden" name="_next" value="{{site.url}}/thanks" />
+    <input type="hidden" name="_subject" value="MindiKessenich.com Contact Submission" />
+    <input type="text" name="_gotcha" style="display:none" />
+
     <div class="form__input">
       <input type="text" class="form__text" id="contact-name" required placeholder="Your name"/>
       <label for="contact-name" class="form__label">Your name</label>
     </div>
     <div class="form__input">
-      <input type="email" class="form__text" id="contact-email" placeholder="Email"/>
+      <input type="email" name="_replyto" class="form__text" id="contact-email" placeholder="Email"/>
       <label for="contact-email" class="form__label">Email</label>
     </div>
     <div class="form__input">
@@ -23,6 +27,4 @@
       <button type="submit" class="form__button">Send</button>
     </div>
   </form>
-  <div class="contact-callout">hello@mindikessenich.com</div>
-  <div class="contact-callout">608-206-4294</div>
 </div>
