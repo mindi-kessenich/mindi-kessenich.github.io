@@ -3,7 +3,7 @@
 @charset "utf-8";
 
 /*** Colors ***/
-$primary-color: #859d8d;
+$primary-color: #699B83; //#859d8d;
 
 /*** Screen Size Definitions ***/
 $screen-xs: 300px;
@@ -26,6 +26,7 @@ $transition-duration: 250ms;
 $transition-tf: cubic-bezier(0.645, 0.045, 0.355, 1);
 
 $box-shadow: 0 0 0.5rem 0 $primary-color;
+$drop-shadow: 0 0.125rem 0.125rem 0 black;
 
 /*** Import SASS files ***/
 @import
@@ -33,6 +34,7 @@ $box-shadow: 0 0 0.5rem 0 $primary-color;
         "mixins/fluid-type",
         "typography",
         "components/header",
+        "components/navbar",
         "components/main",
         "components/footer",
         "components/form",
