@@ -8,7 +8,7 @@ lang: en-us
 timezone: America/Chicago
 
 markdown: kramdown
-permalink: /:title/
+permalink: /:category/:title/
 
 #logo: /assets/images/logo-tk.jpg
 
@@ -32,24 +32,11 @@ defaults:
         email: hello@mindikessenich.com
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-seo-tag
-  - jemoji
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
