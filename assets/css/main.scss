@@ -3,7 +3,8 @@
 @charset "utf-8";
 
 /*** Colors ***/
-$primary-color: #699B83; //#859d8d;
+$primary-color: #699B83;
+$meta-color: #767676;
 
 /*** Screen Size Definitions ***/
 $screen-xs: 300px;
@@ -37,6 +38,8 @@ $drop-shadow: 0 0.125rem 0.125rem 0 black;
         "components/navbar",
         "components/main",
         "components/footer",
+        "components/page",
         "components/form",
-        "components/contact-form"
+        "components/contact-form",
+        "components/team-list"
 ;

@@ -1,0 +1,54 @@
+.page__header {
+
+}
+
+img.page__header__image {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.page__content {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 1rem 2rem 2rem;
+
+  h1 { font-size: 1.9487171rem; }
+  h2 { font-size: 1.771561rem; }
+  h3 { font-size: 1.4641rem; }
+  h4 { font-size: 1.331rem; }
+  h5 { font-size: 1.21rem; }
+  h6 { font-size: 1.1rem; }
+
+  h1, h2 {
+    text-align: center;
+    color: $primary-color;
+  }
+
+  p {
+    font-size: 1.3331rem;
+    font-weight: 300;
+    margin: 1rem 0;
+  }
+
+  a {
+    padding: 0 0.125rem;
+    background:
+       linear-gradient(
+         to bottom, $primary-color 0%,
+         $primary-color 100%
+       );
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+      background-size: 0.125rem 0.125rem;
+    color: #000;
+    text-decoration: none;
+    transition: background-size $transition-duration $transition-tf,
+                color $transition-duration $transition-tf;
+  }
+
+  a:hover {
+    background-size: 0 0;
+    color: $primary-color;
+  }
+}

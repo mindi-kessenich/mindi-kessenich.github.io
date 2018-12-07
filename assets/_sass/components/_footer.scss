@@ -1,5 +1,10 @@
 footer {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 2rem 1rem;
 }
 
 img.affiliated-logo {
@@ -13,9 +18,20 @@ img.affiliated-logo {
 .contact-callout {
   margin-bottom: 0.5rem;
   color: $primary-color;
-  font-size: 0.7rem;
+  font-size: 1rem;
   letter-spacing: 0.25rem;
   font-weight: normal;
   text-transform: uppercase;
   text-align: center;
+  a {
+    color: $primary-color;
+    text-decoration: none;
+  }
+}
+
+.copyright {
+  flex: 0 0 100%;
+  color: $meta-color;
+  font-size: 1rem;
+  font-weight: 200;
 }
