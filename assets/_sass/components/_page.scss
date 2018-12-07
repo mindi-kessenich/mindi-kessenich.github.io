@@ -32,7 +32,9 @@ img.page__header__image {
   }
 
   a {
-    padding: 0 0.125rem;
+    color: #000;
+    text-decoration: none;
+
     background:
        linear-gradient(
          to bottom, $primary-color 0%,
@@ -41,8 +43,7 @@ img.page__header__image {
       background-position: 0 100%;
       background-repeat: repeat-x;
       background-size: 0.125rem 0.125rem;
-    color: #000;
-    text-decoration: none;
+    
     transition: background-size $transition-duration $transition-tf,
                 color $transition-duration $transition-tf;
   }

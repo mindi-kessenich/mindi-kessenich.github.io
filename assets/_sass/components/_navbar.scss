@@ -44,8 +44,22 @@ li.site-navbar__nav-list-item {
     text-decoration: none;
     color: black;
     transition: color $transition-duration $transition-tf;
-    &:hover, &:focus, &.active {
+    &.active {
+      background:
+         linear-gradient(
+           to bottom, $primary-color 0%,
+           $primary-color 100%
+         );
+        background-position: 0 100%;
+        background-repeat: repeat-x;
+        background-size: 0.125rem 0.125rem;
+
+      transition: background-size $transition-duration $transition-tf,
+                  color $transition-duration $transition-tf;
+    }
+    &:hover, &:focus {
       color: $primary-color;
+      background-size: 0 0;
     }
     background-color: white;
   }
