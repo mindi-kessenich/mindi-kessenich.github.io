@@ -13,4 +13,4 @@ As a real estate agent, I help my clients sell their current home and find their
 
 If you feel your current home is where you want to be, but it's not what you love, I can help you remodel and decorate your space so that it matches your style.
 
-I would love to learn how I can help you find or create the home you desire! [Contact me](/contact) today to start a conversation.
+I would love to learn how I can help you find or create the home you desire! [Contact me](/contact){: class="contact-modal-link" } today to start a conversation.

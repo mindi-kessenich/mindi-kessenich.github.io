@@ -1,0 +1,31 @@
+<div class="modal-overlay closed" id="modal-overlay"></div>
+<div class="modal closed" id="modal">
+  <button class="close-modal-button" id="close-modal-button">Obvious Close Button</button>
+  <div class="modal-guts">
+    <h1>Modal Example</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae expedita corrupti laudantium aperiam, doloremque explicabo ipsum earum dicta saepe delectus totam vitae ipsam doloribus et obcaecati facilis eius assumenda, cumque.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae expedita corrupti laudantium aperiam, doloremque explicabo ipsum earum dicta saepe delectus totam vitae ipsam doloribus et obcaecati facilis eius assumenda, cumque.</p>
+  </div>
+</div>
+
+<script type="text/javascript">
+  const modal = document.querySelector("#modal");
+  const modalOverlay = document.querySelector("#modal-overlay");
+  const closeButton = document.querySelector("#close-modal-button");
+  const openLinks = document.querySelectorAll(".contact-modal-link");
+
+  closeButton.addEventListener("click", () => {
+    console.log("close");
+    modal.classList.add("closed");
+    modalOverlay.classList.add("closed");
+  });
+
+  openLinks.forEach((openLink) => {
+    openLink.addEventListener("click", (e) => {
+      e.preventDefault();
+      console.log("open");
+      modal.classList.remove("closed");
+      modalOverlay.classList.remove("closed");
+    });
+  });
+</script>
