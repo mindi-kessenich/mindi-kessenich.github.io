@@ -1,10 +1,11 @@
 .contact-form {
-  max-width: 800px;
+  max-width: 480px;
+
+  background-color: $primary-color;
 
   margin: 0 auto;
 
-  border: $border;
   border-radius: $border-radius;
 
-  padding: 1rem 1.5rem;
+  padding: 1rem;
 }

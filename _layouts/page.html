@@ -3,11 +3,11 @@ layout: default
 ---
 
 <div class="page">
+  {%- if page.image -%}
   <div class="page__header">
-    {%- if page.image -%}
     <img src="{{page.image}}" class="page__header__image"/>
-    {%- endif -%}
   </div>
+  {%- endif -%}
   <div class="page__content">
     {{ content }}
   </div>

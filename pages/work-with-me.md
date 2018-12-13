@@ -2,7 +2,7 @@
 layout: page
 permalink: /work-with-me/
 title: Work With Me
-image: /assets/images/demo/work-with-me.jpg
+image: /assets/images/photos/home.jpg
 ---
 
 # Four Ways to Work With Me
@@ -14,7 +14,7 @@ image: /assets/images/demo/work-with-me.jpg
     </div>
     <div class="item-description">
       <h2>Sell Your Home:</h2>
-      <p>A short description of what clients can expect when they work with you!</p>
+      <p>Through staging and marketing, I'll showcase the true value of your property to potential buyers. I'll also be in constant contact with you so I can best represent you every step of the way.</p>
     </div>
   </li>
   <li class="service-list__item">
@@ -23,7 +23,7 @@ image: /assets/images/demo/work-with-me.jpg
     </div>
     <div class="item-description">
       <h2>Buy A Home:</h2>
-      <p>A short description of what clients can expect when they work with you!</p>
+      <p>I'm here to help you get through the stress and complexity of buying your next home. I'll listen to your needs and use my creativity and patience to make sure you get the best deal.</p>
     </div>
   </li>
   <li class="service-list__item">
@@ -32,7 +32,7 @@ image: /assets/images/demo/work-with-me.jpg
     </div>
     <div class="item-description">
       <h2>Remodel Your Home:</h2>
-      <p>A short description of what clients can expect when they work with you!</p>
+      <p>Together we can build a vision that brings your home to its fullest potential. With my experience and my high-quality contractor (Property Revival), I'll give you the confidence to tackle any project.</p>
     </div>
   </li>
   <li class="service-list__item">
@@ -41,7 +41,7 @@ image: /assets/images/demo/work-with-me.jpg
     </div>
     <div class="item-description">
       <h2>Decorate Your Home:</h2>
-      <p>A short description of what clients can expect when they work with you!</p>
+      <p>Mixing tried-and-true classic styles with pops of current trends, we can give your home a fresh, timeless look.</p>
     </div>
   </li>
 </ul>

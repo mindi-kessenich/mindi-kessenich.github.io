@@ -19,7 +19,7 @@ sass:
 author:
   name: "Mindi Kessenich"
   #picture: /assets/images/headshot-tk.jpg
-  email: hello@mindikessenich.com
+  email: mindi@propertyrevival.net
 
 defaults:
   -
@@ -29,7 +29,7 @@ defaults:
     values:
       author:
         name: Mindi Kessenich
-        email: hello@mindikessenich.com
+        email: mindi@propertyrevival.net
 
 
 plugins:

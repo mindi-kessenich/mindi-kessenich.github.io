@@ -2,7 +2,7 @@
 layout: page
 permalink: /about/
 title: About
-image: /assets/images/demo/about.jpg
+image: /assets/images/photos/my-family.jpg
 ---
 
 # More About Me
@@ -20,7 +20,7 @@ This is where I would love to talk about how you got into this career and why yo
   </li>
   <li class="team-list__member">
     <div class="member-photo">
-      <img src="/assets/images/demo/team-member.jpg">
+      <img src="/assets/images/photos/mindi-amy.jpg">
     </div>
     <div class="member-description">
       <p>Here I would love to mention Amy, what she does on your team, and a little about her!</p>

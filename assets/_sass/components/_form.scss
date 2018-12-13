@@ -1,6 +1,7 @@
 form {
   max-width: 400px;
   margin: 0 auto;
+  background-color: $primary-color;
 }
 
 input, textarea, {
@@ -13,13 +14,13 @@ input, textarea, {
 
 h3.form-title {
   text-align: center;
-  color: $primary-color;
+  color: white;
   margin-bottom: 1rem;
 }
 
 .form__input, .form__action {
   position: relative;
-  margin: 1.5rem 0;
+  margin: 1.75rem 0 0.75rem;
 }
 
 .form__button {
@@ -36,13 +37,15 @@ h3.form-title {
   text-transform: uppercase;
   transition: box-shadow $transition-duration,
               background-color $transition-duration,
-              color $transition-duration;
+              color $transition-duration,
+              border-color $transition-duration;
   &:hover, &:focus {
     outline: none;
     box-shadow: $box-shadow;
     background-color: white;
     color: $primary-color;
     cursor: pointer;
+    border-color: black;
   }
 }
 
@@ -60,9 +63,11 @@ h3.form-title {
   border: $border;
   border-color: $primary-color;
   border-radius: $border-radius;
-  transition: box-shadow $transition-duration;
+  transition: box-shadow $transition-duration,
+              border-color $transition-duration;
    &:focus {
      outline: none;
+     border-color: black;
      box-shadow: $box-shadow;
    }
 }
@@ -70,9 +75,9 @@ h3.form-title {
 .form__label {
   display: block;
   position: absolute;
-  top: 10%;
+  top: 0rem;
   left: 1rem;
-  color: #000;
+  color: white;
   font-family: inherit;
   font-size: 1rem;
   font-weight: inherit;
@@ -100,8 +105,8 @@ h3.form-title {
   z-index: 1;
   opacity: 1;
   transform:
-    translate3d(0, -125%, 0)
-    scale(0.6);
+    translate3d(0, -1.2rem, 0)
+    scale(1);
   transition:
     transform $transition-duration,
     visibility 0ms,
