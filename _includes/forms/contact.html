@@ -1,27 +1,25 @@
-<div class="contact-form">
-  <form class="form" method="POST" action="https://formspree.io/&#109;&#105;&#110;&#100;&#105;&#64;&#112;&#114;&#111;&#112;&#101;&#114;&#116;&#121;&#114;&#101;&#118;&#105;&#118;&#97;&#108;&#46;&#110;&#101;&#116;">
-    <input type="hidden" name="_next" value="{{site.url}}/thanks" />
-    <input type="hidden" name="_subject" value="MindiKessenich.com Contact Submission" />
-    <input type="text" name="_gotcha" style="display:none" />
+<form class="form" method="POST" action="https://formspree.io/&#109;&#105;&#110;&#100;&#105;&#64;&#112;&#114;&#111;&#112;&#101;&#114;&#116;&#121;&#114;&#101;&#118;&#105;&#118;&#97;&#108;&#46;&#110;&#101;&#116;">
+  <input type="hidden" name="_next" value="{{site.url}}/thanks" />
+  <input type="hidden" name="_subject" value="MindiKessenich.com Contact Submission" />
+  <input type="text" name="_gotcha" style="display:none" />
 
-    <div class="form__input">
-      <input type="text" name="name" class="form__text" id="contact-name" required placeholder="Your Name"/>
-      <label for="contact-name" class="form__label">Your Name</label>
-    </div>
-    <div class="form__input">
-      <input type="email" name="_replyto" class="form__text" id="contact-email" placeholder="Email Address"/>
-      <label for="contact-email" class="form__label">Email Address</label>
-    </div>
-    <div class="form__input">
-      <input type="tel" name="telephone" class="form__text" id="contact-phone" placeholder="Phone Number" />
-      <label for="contact-phone" class="form__label">Phone Number</label>
-    </div>
-    <div class="form__input">
-      <textarea class="form__text" name="message" id="contact-message" rows="6" required placeholder="How Can I Help?"></textarea>
-      <label for="contact-message" class="form__label">How Can I Help?</label>
-    </div>
-    <div class="form__action">
-      <button type="submit" class="form__button">Submit</button>
-    </div>
-  </form>
-</div>
+  <div class="form__input">
+    <input type="text" name="name" class="form__text" id="contact-name" required placeholder="Your Name"/>
+    <label for="contact-name" class="form__label">Your Name</label>
+  </div>
+  <div class="form__input">
+    <input type="email" name="_replyto" class="form__text" id="contact-email" placeholder="Email Address"/>
+    <label for="contact-email" class="form__label">Email Address</label>
+  </div>
+  <div class="form__input">
+    <input type="tel" name="telephone" class="form__text" id="contact-phone" placeholder="Phone Number" />
+    <label for="contact-phone" class="form__label">Phone Number</label>
+  </div>
+  <div class="form__input">
+    <textarea class="form__text" name="message" id="contact-message" rows="6" required placeholder="How Can I Help?"></textarea>
+    <label for="contact-message" class="form__label">How Can I Help?</label>
+  </div>
+  <div class="form__action">
+    <button type="submit" class="form__button">Submit</button>
+  </div>
+</form>
