@@ -8,7 +8,7 @@
     <input type="text" name="_gotcha" style="display:none" />
 
     <div class="form__input">
-      <input type="text" class="form__text" id="contact-name" required placeholder="Your name"/>
+      <input type="text" name="name" class="form__text" id="contact-name" required placeholder="Your name"/>
       <label for="contact-name" class="form__label">Your name</label>
     </div>
     <div class="form__input">
@@ -16,11 +16,11 @@
       <label for="contact-email" class="form__label">Email</label>
     </div>
     <div class="form__input">
-      <input type="tel" class="form__text" id="contact-phone" placeholder="Phone (optional)" />
+      <input type="tel" name="phone" class="form__text" id="contact-phone" placeholder="Phone (optional)" />
       <label for="contact-phone" class="form__label">Phone (optional)</label>
     </div>
     <div class="form__input">
-      <textarea class="form__text" id="contact-message" required placeholder="Message"></textarea>
+      <textarea name="message" class="form__text" id="contact-message" required placeholder="Message"></textarea>
       <label for="contact-message" class="form__label">Message</label>
     </div>
     <div class="form__action">
