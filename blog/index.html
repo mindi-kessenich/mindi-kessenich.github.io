@@ -1,0 +1,16 @@
+---
+layout: archive
+---
+
+<h1 class="archive__title">
+  Blog
+  {% if paginator.page != 1 %}
+  <span class="archive__subtitle">
+    (Page {{ paginator.page }})
+  </span>
+  {% endif %}
+</h1>
+
+{% include posts/post-list.html posts=paginator.posts %}
+
+{% include posts/paginated-navigation.html paginator=paginator %}

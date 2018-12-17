@@ -1,0 +1,56 @@
+@import
+        "components/post/post-header",
+        "components/post/post-list",
+        "components/post/paginated-navigation"
+;
+
+
+.post {
+  display: flex;
+  flex-wrap: nowrap;
+
+  h1 { font-size: 1.331rem; }
+  h2 { font-size: 1.21rem; }
+  h3 { font-size: 1.1rem; }
+  h4 { font-size: 1rem; }
+  h5 { font-size: 0.90909090909rem; }
+  h6 { font-size: 0.82644628099rem; }
+
+  h1, h2 {
+    text-align: center;
+    color: $primary-color;
+  }
+
+  p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 1rem 0;
+  }
+
+  @include link-display;
+}
+
+.post__navigation {
+  position: relative;
+  flex: 0 1 10vw;
+  .post__navigation-link {
+    position: sticky;
+    top: 0;
+    text-align: center;
+    font-size: 5rem;
+    a {
+      color: black;
+      background: none;
+      &:hover {
+        color: $primary-color;
+      }
+    }
+    span.disabled {
+      color: $meta-color;
+    }
+  }
+}
+
+.post__main {
+  flex: 1 0 80vw;
+}

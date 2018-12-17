@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="post">
+  <div class="post__navigation">
+    <div class="post__navigation-link">
+      {%- if page.previous.url -%}
+        <a href="{{page.previous.url}}">&lsaquo;</a>
+      {% else %}
+        <span class="disabled">&lsaquo;</span>
+      {%- endif -%}
+    </div>
+  </div>
+  <div class="post__main">
+    {%- include posts/post-header.html post=page header="h1" subclass="no-links" -%}
+    <div class="post__content">
+      {{ content }}
+    </div>
+    <div class="post__footer"></div>
+  </div>
+  <div class="post__navigation">
+    <div class="post__navigation-link">
+      {%- if page.next.url -%}
+        <a href="{{page.next.url}}">&rsaquo;</a>
+      {% else %}
+        <span class="disabled">&rsaquo;</span>
+      {%- endif -%}
+    </div>
+  </div>
+</div>

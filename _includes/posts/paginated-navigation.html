@@ -1,0 +1,31 @@
+{%- if include.paginator.total_pages > 1 -%}
+<div class="paginated-navigation">
+  {%- if include.paginator.previous_page -%}
+    <a class="pagination__arrow" href="{{ include.paginator.previous_page_path | relative_url }}">
+      &lsaquo;
+    </a>
+  {%- endif -%}
+
+  {%- for page in (1..include.paginator.total_pages) -%}
+    {%- if page == include.paginator.page -%}
+      <a class="pagination__number active" href="{{ include.paginator.previous_page_path | relative_url }}">
+        {{ page }}
+      </a>
+    {%- elsif page == 1 -%}
+      <a class="pagination__number" href="{{ include.paginator.previous_page_path | relative_url }}">
+        {{ page }}
+      </a>
+    {%- else -%}
+      <a class="pagination__number" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">
+        {{ page }}
+      </a>
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- if include.paginator.next_page -%}
+    <a class="pagination__arrow" href="{{ include.paginator.next_page_path | relative_url }}">
+      &rsaquo;
+    </a>
+  {%- endif -%}
+</div>
+{%- endif -%}

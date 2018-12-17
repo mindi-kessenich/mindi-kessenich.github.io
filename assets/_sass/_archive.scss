@@ -1,0 +1,15 @@
+.archive {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1.archive__title, h2.archive__subtitle {
+  font-size: 1.9487171rem;
+  text-align: center;
+  color: $primary-color;
+}
+
+.archive__subtitle {
+  color: $meta-color;
+  font-size: 0.8em;
+}

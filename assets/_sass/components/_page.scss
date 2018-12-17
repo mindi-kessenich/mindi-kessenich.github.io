@@ -13,7 +13,9 @@ img.page__header__image {
   margin: 0 auto;
   max-width: 1440px;
   padding: 1rem 2rem 2rem;
+}
 
+.page {
   h1 { font-size: 1.9487171rem; }
   h2 { font-size: 1.771561rem; }
   h3 { font-size: 1.4641rem; }
@@ -32,25 +34,5 @@ img.page__header__image {
     margin: 1rem 0;
   }
 
-  a {
-    color: #000;
-    text-decoration: none;
-
-    background:
-       linear-gradient(
-         to bottom, $primary-color 0%,
-         $primary-color 100%
-       );
-      background-position: 0 100%;
-      background-repeat: repeat-x;
-      background-size: 0.125rem 0.125rem;
-
-    transition: background-size $transition-duration $transition-tf,
-                color $transition-duration $transition-tf;
-  }
-
-  a:hover {
-    background-size: 0 0;
-    color: $primary-color;
-  }
+  @include link-display;
 }

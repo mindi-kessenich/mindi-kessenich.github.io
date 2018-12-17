@@ -1,0 +1,9 @@
+<div class="post-list">
+  {%- for post in include.posts -%}
+  <div class="post-list__post">
+    <a href="{{ post.url }}">
+      {%- include posts/post-header.html post=post subclass="list-item" header="h2" -%}
+    </a>
+  </div>
+  {%- endfor -%}
+</div>

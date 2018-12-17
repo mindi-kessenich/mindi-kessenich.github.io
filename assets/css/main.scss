@@ -33,6 +33,8 @@ $drop-shadow: 0 0.125rem 0.125rem 0 black;
 @import
         "normalize",
         "mixins/fluid-type",
+        "mixins/link-display",
+        "mixins/nav-link-display",
         "typography",
         "components/header",
         "components/navbar",
@@ -42,5 +44,7 @@ $drop-shadow: 0 0.125rem 0.125rem 0 black;
         "components/form",
         "components/contact-form",
         "components/team-list",
-        "components/service-list"
+        "components/service-list",
+        "components/post",
+        "archive"
 ;

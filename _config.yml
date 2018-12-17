@@ -8,7 +8,7 @@ lang: en-us
 timezone: America/Chicago
 
 markdown: kramdown
-permalink: /:category/:title/
+permalink: /:categories/:title/
 
 #logo: /assets/images/logo-tk.jpg
 
@@ -31,6 +31,8 @@ defaults:
         name: Mindi Kessenich
         email: mindi@propertyrevival.net
 
+paginate: 5
+paginate_path: "/blog/:num/"
 
 plugins:
   - jekyll-sitemap

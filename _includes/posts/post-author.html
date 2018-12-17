@@ -1,0 +1,3 @@
+{% assign author = site.data.authors[include.author] %}
+
+<span class="post__author">{{ author.short_name | default: 'Mindi' }}</span>
