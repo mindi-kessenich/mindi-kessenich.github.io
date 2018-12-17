@@ -23,7 +23,7 @@ This is where I would love to talk about how you got into this career and why yo
       <img src="/assets/images/photos/mindi-amy.jpg">
     </div>
     <div class="member-description">
-      <p>Here I would love to mention Amy, what she does on your team, and a little about her!</p>
+      <p>Hello! I am <strong>Amy Miller,</strong> Customer Care Specialist at Mindi Kessenich Real Estate and Design. I love working here because it gives me opportunities to make people happy! Going above and beyond what customers expect is of high importance to us!</p>
     </div>
   </li>
 </ul>
