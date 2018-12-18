@@ -1,0 +1,10 @@
+---
+layout: archive
+title: Client Projects
+permalink: /client-projects/
+---
+
+<h1 class="archive__title">{{ page.title }}</h1>
+
+{% assign post_set = site.categories['client-projects'] %}
+{% include posts/post-list.html posts=post_set %}
