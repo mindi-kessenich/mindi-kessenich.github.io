@@ -9,7 +9,14 @@
   <link href="https://fonts.googleapis.com/css?family=Assistant:200,400,700" rel="stylesheet">
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-
-  <title>{% if page.title %}{{ page.title }} | Mindi Kessenich{% else %}Mindi Kessenich | {{ site.description }}{% endif %}</title>
+  <title>
+    {%- if paginator and paginator.page != 1 -%}
+      {{ page.title | append: ' (Page ' | append: paginator.page | append: ')' }} | Mindi Kessenich
+    {%- elsif page.title %}
+      {{ page.title }} | Mindi Kessenich
+    {%- else -%}
+      Mindi Kessenich | {{ site.description }}
+    {% endif %}
+</title>
   {% seo title=false %}
 </head>
