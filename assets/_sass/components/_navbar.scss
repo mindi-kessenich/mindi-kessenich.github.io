@@ -55,6 +55,10 @@ li.site-navbar__nav-list-item {
     opacity: 1;
     display: block;
     border: 1px solid black;
+    a.active {
+      color: $primary-color;
+      background: none;
+    }
   }
 }
 

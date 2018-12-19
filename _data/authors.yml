@@ -1,6 +1,9 @@
-mindi:
-    full_name: Mindi Kessenich
+mindi_kessenich:
+    name: Mindi Kessenich
     short_name: Mindi
-amy:
-    full_name: Amy Miller
+    email: mindi@propertyrevival.net
+    picture: /images/photos/mindi-headshot.jpg
+amy_miller:
+    name: Amy Miller
     short_name: Amy
+    picture: /images/photos/mindi-amy.jpg

@@ -2,7 +2,7 @@
 layout: post
 date:   2018-12-15 20:05:58 -0500
 category: my-home
-author: mindi
+author: mindi_kessenich
 title:  "Welcome to My House: Bedrooms"
 image: /assets/images/demo/bedroom.jpg
 ---

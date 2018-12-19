@@ -10,7 +10,7 @@ image: /assets/images/photos/home.jpg
 <ul class="service-list">
   <li class="service-list__item">
     <div class="item-photo">
-      <img src="/assets/images/demo/sell-your-home.jpg">
+      <img src="/assets/images/photos/sell-your-home.jpg">
     </div>
     <div class="item-description">
       <h2>Sell Your Home:</h2>
@@ -19,7 +19,7 @@ image: /assets/images/photos/home.jpg
   </li>
   <li class="service-list__item">
     <div class="item-photo">
-      <img src="/assets/images/demo/buy-a-home.jpg">
+      <img src="/assets/images/photos/buy-a-home.jpg">
     </div>
     <div class="item-description">
       <h2>Buy A Home:</h2>
@@ -28,7 +28,7 @@ image: /assets/images/photos/home.jpg
   </li>
   <li class="service-list__item">
     <div class="item-photo">
-      <img src="/assets/images/demo/remodel-your-home.jpg">
+      <img src="/assets/images/photos/remodel-your-home.jpg">
     </div>
     <div class="item-description">
       <h2>Remodel Your Home:</h2>
@@ -37,7 +37,7 @@ image: /assets/images/photos/home.jpg
   </li>
   <li class="service-list__item">
     <div class="item-photo">
-      <img src="/assets/images/demo/decorate-your-home.jpg">
+      <img src="/assets/images/photos/decorate-your-home.jpg">
     </div>
     <div class="item-description">
       <h2>Decorate Your Home:</h2>

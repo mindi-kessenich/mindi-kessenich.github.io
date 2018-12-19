@@ -4,22 +4,28 @@ description: Madison, WI Real Estate and Design
 baseurl: ""
 url: "https://mindikessenich.com"
 
-lang: en-us
+lang: en_US
 timezone: America/Chicago
 
 markdown: kramdown
 permalink: /:categories/:title/
 
-#logo: /assets/images/logo-tk.jpg
+author:
+  name: Mindi Kessenich
+  short_name: Mindi
+  email: mindi@propertyrevival.net
+
+logo: /assets/images/logo-banner-580x245.png
+
+facebook:
+  publisher: mindikessenichrealestateanddesign
+
+paginate: 5
+paginate_path: "/blog/:num/"
 
 sass:
   sass_dir: assets/_sass
   style: compressed
-
-author:
-  name: "Mindi Kessenich"
-  #picture: /assets/images/headshot-tk.jpg
-  email: mindi@propertyrevival.net
 
 defaults:
   -
@@ -27,15 +33,11 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author:
-        name: Mindi Kessenich
-        email: mindi@propertyrevival.net
-
-paginate: 5
-paginate_path: "/blog/:num/"
+      author: mindi_kessenich
 
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
   - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-seo-tag

@@ -2,7 +2,7 @@
 layout: post
 date:   2018-12-05 20:05:58 -0500
 category: client-projects
-author: amy
+author: amy_miller
 title:  "See What We Did With Jimbo's House"
 image: /assets/images/demo/jimbo-1.jpg
 ---
