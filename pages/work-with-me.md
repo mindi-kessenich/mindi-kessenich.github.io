@@ -5,7 +5,7 @@ title: Work With Me
 image: /assets/images/photos/home.jpg
 ---
 
-# Four Ways to Work With Me
+# Work With Me
 
 <ul class="service-list">
   <li class="service-list__item">

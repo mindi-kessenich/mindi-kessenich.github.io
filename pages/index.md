@@ -5,10 +5,8 @@ title: Madison, WI Real Estate and Design
 image: /assets/images/photos/kessenich-family.jpg
 ---
 
-# Hi, I'm Mindi!
+# Hi, I'm Mindi and I'm so glad you stopped by!
 
-I am a wife, a mother, a friend, and a design and fashion enthusiast (among other things). I moved into my husband's childhood home in 2011. It had not been updated since, well...ever.  The challenges I had transforming it into our own home became an opportunity that turned into a calling.
-
-I have been helping clients decorate since 2015 and in real estate and remodeling since 2016. I am fantastic at seeing the potential in any home. Whatever your needs are, I'm your "home" girl.
+My passion is in creating the gift of home. Home is where you are at peace, you are able to recharge, and build lasting memories with friends and family. As a decorator, remodel specialist and real estate agent, I can help you achieve your home goals regardless of your situation! I would love to learn how I can help you find or create your home in the Madison and South Central Wisconsin region.
 
 [Contact me](/contact) today to start a conversation.

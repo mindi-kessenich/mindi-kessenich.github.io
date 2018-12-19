@@ -5,9 +5,11 @@ title: About
 image: /assets/images/photos/my-family.jpg
 ---
 
-# More About Me
+# About
 
-This is where I would love to talk about how you got into this career and why you love it. Talk about your personal experience of moving into your husband's childhood home and working on remodeling it to become your family's home.
+Hi, I'm __Mindi Kessenich!__ I am a wife, a mother, a friend, and a design and fashion enthusiast (among other things). I moved into my husband's childhood home in 2011. It had not been updated since, well...ever.  The challenges I had transforming it into our own home became an opportunity that turned into a calling.
+
+I have been helping clients decorate since 2015 and in real estate and remodeling since 2016. I am fantastic at seeing the potential in any home. Whatever your needs are, I'm your "home" girl.
 
 <ul class="team-list">
   <li class="team-list__member">

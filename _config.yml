@@ -20,6 +20,9 @@ logo: /assets/images/logo-banner-580x245.png
 facebook:
   publisher: mindikessenichrealestateanddesign
 
+webmaster_verifications:
+  google: SykVDNd9WMgHu7KJNGfHoTuFyVImq7Of8605j8KV4B4
+  
 paginate: 5
 paginate_path: "/blog/:num/"
 
