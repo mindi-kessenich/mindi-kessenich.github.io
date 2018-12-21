@@ -1,3 +1,4 @@
+{%- if include.posts.size > 0 -%}
 <div class="post-list">
   {%- for post in include.posts -%}
   <div class="post-list__post">
@@ -7,3 +8,6 @@
   </div>
   {%- endfor -%}
 </div>
+{%- else -%}
+<h1 class="archive__title"><span class="archive__subtitle">Coming soon!</span></h1>
+{%- endif -%}

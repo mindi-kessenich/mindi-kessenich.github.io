@@ -1,5 +1,5 @@
 nav.site-navbar {
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0.5rem auto;
 }
 
@@ -66,7 +66,7 @@ li.site-navbar__nav-list-item {
     display: inline-block;
     border: 2px solid black;
     border-radius: 50%;
-    width: 1.8333333333rem;
+    width: 2rem;
     position: relative;
     text-align: center;
     transition: background-color $transition-duration $transition-tf;

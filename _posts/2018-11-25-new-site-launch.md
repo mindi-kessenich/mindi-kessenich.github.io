@@ -1,9 +1,11 @@
 ---
 layout: post
 date:   2018-11-25 20:05:58 -0500
-author: chris
+category: my-home
+author: mindi
 title:  "New Site Launch"
 image: /assets/images/demo/mindi-amy.jpg
+published: false
 ---
 You’ll find this post in your '_posts' directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run 'jekyll serve', which launches a web server and auto-regenerates your site when a file is updated.
 
