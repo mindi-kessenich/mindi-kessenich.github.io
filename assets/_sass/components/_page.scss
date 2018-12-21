@@ -1,0 +1,39 @@
+.page__header {
+  border-bottom: 0.5rem solid black;
+  background-color: black;
+}
+
+img.page__header__image {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.page__content {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 1rem 2rem 2rem;
+}
+
+.page {
+  h1 { font-size: 1.9487171rem; }
+  h2 { font-size: 1.771561rem; }
+  h3 { font-size: 1.4641rem; }
+  h4 { font-size: 1.331rem; }
+  h5 { font-size: 1.21rem; }
+  h6 { font-size: 1.1rem; }
+
+  h1, h2 {
+    text-align: center;
+    color: $primary-color;
+  }
+
+  p {
+    font-size: 1.3331rem;
+    font-weight: 300;
+    margin: 1rem 0;
+  }
+
+  @include link-display;
+}

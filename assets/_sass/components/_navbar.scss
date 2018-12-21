@@ -1,0 +1,103 @@
+nav.site-navbar {
+  max-width: 1200px;
+  margin: 0.5rem auto;
+}
+
+ul.site-navbar__nav-list {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+  padding-left: 0;
+  z-index: 1;
+  &--dropdown {
+    width: 200%;
+    text-align: center;
+    transform: translateX(-25%);
+    //box-shadow: $drop-shadow;
+    animation: appear $transition-duration;
+    animation-fill-mode: backwards;
+    flex-direction: column;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: all $transition-duration $transition-tf;
+    left: 0;
+    li.site-navbar__nav-list-item {
+      font-weight: 300;
+      margin: 0;
+      clear: both;
+    }
+  }
+}
+
+li.site-navbar__nav-list-item {
+  position: relative;
+  display: block;
+  font-size: 1.15rem;
+  margin: 0 0.25rem;
+  font-weight: 400;
+  border: 1px solid transparent;
+
+  a {
+    display: inline;
+    height: 100%;
+  }
+
+  @include nav-link-display;
+
+  &:hover > ul.site-navbar__nav-list--dropdown,
+  &:focus-within > ul.site-navbar__nav-list--dropdown,
+  ul.site-navbar__nav-list--dropdown:hover {
+    visibility: visible;
+    animation: appear $transition-duration;
+    opacity: 1;
+    display: block;
+    border: 1px solid black;
+    a.active {
+      color: $primary-color;
+      background: none;
+    }
+  }
+
+  a.social-link {
+    margin: 0 0.25rem;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 2rem;
+    position: relative;
+    text-align: center;
+    transition: background-color $transition-duration $transition-tf;
+  }
+
+  a.social-link img {
+    transition: filter $transition-duration $transition-tf;
+    height: 1rem;
+    width: auto;
+  }
+  a.social-link:hover {
+    background-color: $primary-color;
+    img {
+      filter: invert(100%);
+    }
+  }
+}
+
+@keyframes appear {
+	0% {
+    display: none;
+    opacity: 0;
+	}
+
+  1% {
+    display: block;
+    opacity: 0;
+  }
+
+	100% {
+    display: block;
+		opacity: 1;
+	}
+}

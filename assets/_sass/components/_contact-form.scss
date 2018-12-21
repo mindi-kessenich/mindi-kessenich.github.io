@@ -1,10 +1,40 @@
-.contact-form {
-  max-width: 800px;
-
-  margin: 0 auto;
-
-  border: $border;
-  border-radius: $border-radius;
-
-  padding: 1rem 1.5rem;
+.contact-form__group {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  .contact-form__image {
+    display: none;
+  }
+  .contact-form__form {
+    flex: 1 0 280px;
+  }
+  h2.contact-form__title {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    .contact-form__image {
+      display: block;
+      flex: 1 0 360px;
+      max-width: 600px;
+      padding: 0 10px;
+      text-align: center;
+      img {
+        max-width: 100%;
+        display: block;
+      }
+    }
+    .contact-form__form {
+      flex: 1 0 300px;
+      max-width: 600px;
+      background-color: $primary-color
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    h2.contact-form__title {
+      display: block;
+      margin-top: 1.75rem;
+      color: white;
+    }
+  }
 }

@@ -1,11 +1,15 @@
 header {
   padding: 0;
+  border-bottom: 0.5rem solid black;
+  position: relative;
+}
+
+div.header-banner {
+  text-align: center;
 }
 
 img.site-logo {
-  max-width: 90vw;
-  text-align: center;
-  display: block;
+  max-width: 80vw;
   margin: 1rem auto;
 }
 
@@ -17,17 +21,4 @@ h1.site-header {
 h2.site-header {
   text-align: center;
   line-height: 1;
-}
-
-.construction-banner {
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
-
-  padding: 0.5rem;
-
-  text-align: center;
-  text-transform: uppercase;
-  color: $primary-color;
-  font-size: 0.8rem;
-  letter-spacing: 0.25rem;
 }

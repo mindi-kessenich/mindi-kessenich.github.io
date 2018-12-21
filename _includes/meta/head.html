@@ -1,4 +1,5 @@
 <head>
+  {% include meta/analytics.html %}
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -8,5 +9,25 @@
   <link rel="stylesheet" href="{{ "/assets/css/main.css?" | prepend: site.baseurl }}{{ site.time | date: "%s" }}">
   <link href="https://fonts.googleapis.com/css?family=Assistant:200,400,700" rel="stylesheet">
 
-  <title>{% if page.title %}{{ page.title }} - Mindi Kessenich{% else %}Mindi Kessenich - {{ site.description }}{% endif %}</title>
+  {% feed_meta %}
+
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <title>
+    {%- if paginator and paginator.page != 1 -%}
+      {{ page.title | append: ' (Page ' | append: paginator.page | append: ')' }} | Mindi Kessenich
+    {%- elsif page.title %}
+      {{ page.title }} | Mindi Kessenich
+    {%- else -%}
+      Mindi Kessenich | {{ site.description }}
+    {% endif %}
+  </title>
+  {% seo title=false %}
+
+  {% capture styles %}
+  {% include styles.scss %}
+  {% endcapture %}
+
+  <style>
+    {{ styles | scssify }}
+  </style>
 </head>

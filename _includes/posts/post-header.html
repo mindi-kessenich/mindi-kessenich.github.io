@@ -1,0 +1,13 @@
+<div class="post-header {{ include.subclass }}">
+  {%- if include.post.image -%}
+  <img class="post__image" src="{{ include.post.image | prepend: site.url }}" />
+  {%- endif -%}
+  <div class="post-header__info">
+    <{{ include.header }} class="post__title">{{ include.post.title }}</{{ include.header }}>
+    <p class="post__meta">
+      {% include posts/post-date.html date=include.post.date %}
+       by
+      {% include posts/post-author.html author=include.post.author %}
+    </p>
+  </div>
+</div>

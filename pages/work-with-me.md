@@ -1,0 +1,49 @@
+---
+layout: page
+permalink: /work-with-me/
+title: Work With Me
+image: /assets/images/photos/home.jpg
+---
+
+# Work With Me
+
+<ul class="service-list">
+  <li class="service-list__item">
+    <div class="item-photo">
+      <img src="/assets/images/photos/sell-your-home.jpg">
+    </div>
+    <div class="item-description">
+      <h2>Sell Your Home:</h2>
+      <p>Through staging and marketing, I'll showcase the true value of your property to potential buyers. I'll also be in constant contact with you so I can best represent you every step of the way.</p>
+      <p><em>Affiliated with <a href="http://www.propertyrevivalrealty.com/about-us/our-team/kessenich/" target="_blank">Property Revival</a></em></p>
+    </div>
+  </li>
+  <li class="service-list__item">
+    <div class="item-photo">
+      <img src="/assets/images/photos/buy-a-home.jpg">
+    </div>
+    <div class="item-description">
+      <h2>Buy A Home:</h2>
+      <p>I'm here to help you get through the stress and complexity of buying your next home. I'll listen to your needs and use my creativity and patience to make sure you get the best deal.</p>
+      <p><em>Affiliated with <a href="http://www.propertyrevivalrealty.com/about-us/our-team/kessenich/" target="_blank">Property Revival</a></em></p>
+    </div>
+  </li>
+  <li class="service-list__item">
+    <div class="item-photo">
+      <img src="/assets/images/photos/remodel-your-home.jpg">
+    </div>
+    <div class="item-description">
+      <h2>Remodel Your Home:</h2>
+      <p>Together we can build a vision that brings your home to its fullest potential. With my experience and my high-quality contractor (<a href="http://www.propertyrevival.net/revival-services/for-current-home-owners/" target="_blank">Property Revival</a>), I'll give you the confidence to tackle any project.</p>
+    </div>
+  </li>
+  <li class="service-list__item">
+    <div class="item-photo">
+      <img src="/assets/images/photos/decorate-your-home.jpg">
+    </div>
+    <div class="item-description">
+      <h2>Decorate Your Home:</h2>
+      <p>Mixing tried-and-true classic styles with pops of current trends, we can give your home a fresh, timeless look.</p>
+    </div>
+  </li>
+</ul>

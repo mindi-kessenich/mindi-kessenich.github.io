@@ -1,0 +1,38 @@
+ul.service-list {
+  margin-top: 2rem;
+  padding: 0;
+}
+
+li.service-list__item {
+  margin: 1.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  .item-photo {
+    flex: 0 0 10rem;
+    img {
+      border-radius: 50%;
+      border: 0.125rem solid black;
+      max-width: 100%;
+      object-fit: cover;
+      overflow: hidden;
+    }
+  }
+
+  .item-description {
+    flex: 1 0 20rem;
+    padding: 0 1rem;
+    h2 {
+      font-size: 1.3331rem;
+      color: black;
+      text-align: left;
+      font-weight: 400;
+      display: inline;
+    }
+    p {
+      font-size: 1.3331rem;
+      display: inline;
+    }
+  }
+}

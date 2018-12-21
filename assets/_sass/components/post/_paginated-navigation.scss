@@ -1,0 +1,11 @@
+.paginated-navigation {
+  text-align: center;
+  font-size: 2rem;
+  a.pagination__number, a.pagination__arrow, span.pagination__number--current {
+    margin: 0.5rem;
+  }
+  span.pagination__number--current {
+    color: $meta-color;
+  }
+  @include nav-link-display;
+}

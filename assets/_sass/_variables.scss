@@ -1,0 +1,26 @@
+/*** Colors ***/
+$primary-color: #699B83;
+$meta-color: #767676;
+
+/*** Screen Size Definitions ***/
+$screen-xs: 300px;
+$screen-s: 425px;
+$screen-m: 768px;
+$screen-l: 1366px;
+$screen-xl: 1920px;
+$screen-xxl: 3440px;
+
+$min_width: $screen-xs;
+$max_width: $screen-l;
+$min_font: 14px;
+$max_font: 24px;
+
+/*** Borders ***/
+$border: 2px solid black;
+$border-radius: 0;
+
+$transition-duration: 250ms;
+$transition-tf: cubic-bezier(0.645, 0.045, 0.355, 1);
+
+$box-shadow: 0 0 0.5rem 0 $primary-color;
+$drop-shadow: 0 0.125rem 0.125rem 0 black;

@@ -1,0 +1,27 @@
+ul.team-list {
+  margin-top: 2rem;
+  padding: 0;
+}
+
+li.team-list__member {
+  margin: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  .member-photo {
+    flex: 0 0 15rem;
+    img {
+      border-radius: 50%;
+      border: 0.125rem solid black;
+      max-width: 100%;
+      object-fit: cover;
+      overflow: hidden;
+    }
+  }
+
+  .member-description {
+    flex: 1 0 20rem;
+    padding: 0 1rem;
+  }
+}

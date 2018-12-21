@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="page">
+  {%- if page.image -%}
+  <div class="page__header">
+    <img src="{{page.image}}" class="page__header__image"/>
+  </div>
+  {%- endif -%}
+  <div class="page__content">
+    {{ content }}
+  </div>
+</div>
