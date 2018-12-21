@@ -41,7 +41,7 @@ li.site-navbar__nav-list-item {
   border: 1px solid transparent;
 
   a {
-    display: block;
+    display: inline;
     height: 100%;
   }
 
@@ -58,6 +58,29 @@ li.site-navbar__nav-list-item {
     a.active {
       color: $primary-color;
       background: none;
+    }
+  }
+
+  a.social-link {
+    margin: 0 0.25rem;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 1.8333333333rem;
+    position: relative;
+    text-align: center;
+    transition: background-color $transition-duration $transition-tf;
+  }
+
+  a.social-link img {
+    transition: filter $transition-duration $transition-tf;
+    height: 1rem;
+    width: auto;
+  }
+  a.social-link:hover {
+    background-color: $primary-color;
+    img {
+      filter: invert(100%);
     }
   }
 }

@@ -1,12 +1,15 @@
 header {
   padding: 0;
   border-bottom: 0.5rem solid black;
+  position: relative;
+}
+
+div.header-banner {
+  text-align: center;
 }
 
 img.site-logo {
-  max-width: 90vw;
-  text-align: center;
-  display: block;
+  max-width: 80vw;
   margin: 1rem auto;
 }
 
