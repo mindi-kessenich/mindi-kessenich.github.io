@@ -1,6 +1,6 @@
 ---
 date: 2018-12-26 00:00:00 -0600
-category: my-home
+category: client-project
 author: mindi_kessenich
 title: Testing a my home post
 image: "/assets/images/demo/home.jpg"
