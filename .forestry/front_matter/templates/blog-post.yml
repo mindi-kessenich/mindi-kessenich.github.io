@@ -45,3 +45,5 @@ fields:
   label: Image
   description: This is the image that appears at the top of the post. Make sure to
     include this or the post won't look right!
+pages:
+- _posts/testing.md
