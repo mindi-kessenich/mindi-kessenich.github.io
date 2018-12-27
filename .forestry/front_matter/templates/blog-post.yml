@@ -33,6 +33,7 @@ fields:
   label: Author
   description: Pick the author of the post. If the author is not listed, the authors.yml
     file needs to be updated.
+  default: mindi_kessenich
 - type: text
   name: title
   label: Title
