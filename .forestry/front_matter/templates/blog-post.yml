@@ -46,4 +46,4 @@ fields:
   description: This is the image that appears at the top of the post. Make sure to
     include this or the post won't look right!
 pages:
-- _posts/asdf.md
+- _posts/2018-12-13-asdf.md
