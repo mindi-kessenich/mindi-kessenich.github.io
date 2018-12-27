@@ -1,5 +1,11 @@
 ---
-label: My Home
+label: Blog Post
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: datetime
+  name: date
+  label: Post Date
+  description: The date the post is written
+  config:
+    required: true
