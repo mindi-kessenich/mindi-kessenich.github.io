@@ -1,0 +1,46 @@
+---
+label: Blog Post
+hide_body: false
+is_partial: false
+fields:
+- type: datetime
+  name: date
+  label: Post Date
+  description: The date the post is written
+  config:
+    required: true
+- type: select
+  name: category
+  config:
+    source:
+      type: simple
+    required: false
+    options:
+    - my-home
+    - client-project
+  label: Category
+  description: Select if this is a 'My Home' or 'Client Project' post. Otherwise,
+    leave blank for a regular blog post.
+- type: select
+  name: author
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - mindi_kessenich
+    - amy_miller
+  label: Author
+  description: Pick the author of the post. If the author is not listed, the authors.yml
+    file needs to be updated.
+- type: text
+  name: title
+  label: Title
+  description: Title of the post
+  config:
+    required: true
+- type: file
+  name: image
+  label: Image
+  description: This is the image that appears at the top of the post. Make sure to
+    include this or the post won't look right!
