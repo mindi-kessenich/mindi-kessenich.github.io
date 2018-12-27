@@ -1,8 +1,8 @@
 ---
-date: 2018-12-26 00:00:00 -0600
+date: 2018-12-26 06:00:00 +0000
 category: client-project
 author: mindi_kessenich
-title: Testing a my home post
+title: Testing a client project post
 image: "/assets/images/demo/home.jpg"
 
 ---
