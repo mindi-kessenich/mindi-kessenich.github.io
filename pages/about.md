@@ -25,7 +25,7 @@ I have been helping clients decorate since 2015 and in real estate and remodelin
       <img src="/assets/images/photos/mindi-amy.jpg">
     </div>
     <div class="member-description">
-      <p>Hello! I am <strong>Amy Miller,</strong> Customer Care Specialist at Mindi Kessenich Real Estate and Design. I love working here because it gives me opportunities to make people happy! Going above and beyond what clients expect is of high importance to us!</p>
+      <p>Hello! I am <strong>Amy Miller,</strong> Client Care Specialist at Mindi Kessenich Real Estate and Design. I love working here because it gives me opportunities to make people happy! Going above and beyond what clients expect is of high importance to us!</p>
     </div>
   </li>
 </ul>
