@@ -38,6 +38,10 @@ Demo started before we moved in! We had a 1 year old and there wasn’t a safety
 
 Yes, it’s exhausting and sometimes I want to just move out. This home has been such an Achilles heel, but it has made me get REAL creative. It made me appreciate the importance of loving your space and finding ways to make it your own. It’s the reason I became good at decorating odd spaces. I can think outside the box because rearranging my house on the daily forced me to get creative. 
 
+**_kitchen remodel phase one:_**
+
+![](/assets/images/IMG_9678.jpg)
+
 This house has taught me so many things. It is literally the one seed I give credit to for the business that has blossomed. It introduced me to some of my very best friends. People that are now family. The people I vacation with and spend my holidays with, even though I see them on a regular basis. This house is the reason that I became a Christian. It brought me to a home where someone had prayed for her son and his future wife, and it introduced me to one of the best Jesus followers I know. She introduced me to the church we belong to now. A church and a church family I love so much! THAT is the true blessing of this home. That’s what I remind myself when I’m frustrated with our entry or the small dirty old garage. 
 
 This home has changed my life in so many ways. I have also changed IT in so many ways...haha!! I don’t think it’ll ever end, and I am (finally) ok with that. 
