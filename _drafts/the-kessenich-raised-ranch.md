@@ -6,8 +6,6 @@ title: The Kessenich (Raised) Ranch
 image: "/assets/images/hutomo-abrianto-576207-unsplash-1.jpg"
 
 ---
-# The Kessenich (Raised) Ranch 
-
 Split level. Bi-level, Raised ranch, split entry. Call it what you will, but as a Realtor and lover of homes in general, I can tell you that most people do not chose these homes first. I especially had disdain for these homes because I grew up in one and remember when we moved in thinking, this is it? No character? No fancy finishes? No customization? All the things I desired in my future home, I thought. 
 
  Fast forward to circumstances that I couldn’t control and here I am living in a split level. Let me tell you the blessing that it has been... I have to start at the beginning...
