@@ -18,6 +18,8 @@ Here’s the deal. Yes we have already paid (too much) to spruce up our kitchen.
 
 For example....I couldn’t open all of the drawers. And this was not a big kitchen! We are not talking about a lot of extra space to be wasted! I needed those drawers!
 
+![](/assets/images/IMG_9710.jpg)
+
 So it was a choice I had to make: drawer pulls vs. function. Beauty is pain my friends. I suffered the function of the drawers, admittedly, but I just couldn’t leave those old wood cabinets naked like that.
 
 Another hurdle I had to overcome was that stinking window. I mean, I would just love to know the designer of this home. I have so many questions, especially since I have designed 2 new builds myself...was there zero thought behind this one? Ok off my soapbox. In all seriousness...I love me some natural light like anyone else but why, oh why, was a window in the far corner of the kitchen behind a pantry and fridge the right choice to move forward on. See below:
