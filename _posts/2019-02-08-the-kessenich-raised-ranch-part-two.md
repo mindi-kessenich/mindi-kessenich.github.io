@@ -24,7 +24,7 @@ So it was a choice I had to make: drawer pulls vs. function. Beauty is pain my f
 
 Another hurdle I had to overcome was that stinking window. I mean, I would just love to know the designer of this home. I have so many questions, especially since I have designed 2 new builds myself...was there zero thought behind this one? Ok off my soapbox. In all seriousness...I love me some natural light like anyone else but why, oh why, was a window in the far corner of the kitchen behind a pantry and fridge the right choice to move forward on. See below:
 
-![](/assets/images/56823302234__97D1E786-F6DB-41B8-9739-106BF877F0B4.JPG)
+![](/assets/images/56823302234__97D1E786-F6DB-41B8-9739-106BF877F0B4-1.JPG)
 
 It was hard to remove the natural light, for sure, but thankfully when we added on to the back of our house a few years ago, we put in so many stinking windows the guy at the lumber yard told us no one could ever take a nap in that space. (Little did he know I can sleep ANYWHERE) Not to mention the giant window we put in the new dining room. Also, I decided on a kitchen that is almost entirely white (like inspiration picture below), which always makes a space feel lighter and brighter. (Oh, and my husband is an electrician.)
 
