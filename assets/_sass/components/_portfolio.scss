@@ -1,0 +1,16 @@
+.portfolio {
+  .portfolio-image-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      max-width: 90vw;
+      max-height: 90vh;
+      padding: 1rem;
+      flex: 1 0 200px;
+      display: block;
+    }
+  }
+}
