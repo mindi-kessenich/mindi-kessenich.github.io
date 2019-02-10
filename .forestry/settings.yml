@@ -4,12 +4,12 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: pages/portfolio.md
-  label: Portfolio
 - type: jekyll-posts
   label: Blog
   create: all
+- type: document
+  path: pages/portfolio.md
+  label: Portfolio
 upload_dir: assets/images
 public_path: "/assets/images"
 front_matter_path: ''
