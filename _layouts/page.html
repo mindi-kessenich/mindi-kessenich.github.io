@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="page {{page.title | slugify}}">
+<div class="page {{page.layout}}">
   {%- if page.image -%}
   <div class="page__header">
     <img src="{{page.image}}" class="page__header__image"/>
