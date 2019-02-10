@@ -1,7 +1,7 @@
 ---
 layout: portfolio
-permalink: /portfolio/
+permalink: "/portfolio/"
 title: Project Portfolio
----
 
-## Coming Soon!
+---
+### Coming Soon!
