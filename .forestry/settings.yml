@@ -7,7 +7,6 @@ sections:
 - type: document
   path: pages/portfolio.md
   label: Portfolio
-  match: "**/*"
 - type: jekyll-posts
   label: Blog
   create: all
