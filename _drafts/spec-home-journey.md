@@ -28,9 +28,9 @@ what a spec home is. I give them the definition above and then
 
 they ask me if it it’s worth the financial risk. This is what I
 
-always tell people...You will make more money on a spec home
+always tell people..."You will make more money on a spec home
 
-than I will. I don’t build them solely for the profit like most
+than I will." I don’t build them solely for the profit like most
 
 investors do. Don’t get me wrong, I wouldn’t take the risk for
 
@@ -152,4 +152,4 @@ YOUR dream home, I can help!!
 
 Designing and redesigning spaces is my favorite thing to do.
 
-Buy, sell, build, remodel, redecorate...I’m your girl.q8
+Buy, sell, build, remodel, redecorate...I’m your girl.
