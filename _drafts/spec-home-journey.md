@@ -8,7 +8,7 @@ image: ''
 ---
 Spec Home Journey
 
-SPEC.U.LATIVE: of, relating to, or being a financial speculation
+SPEC.U.LATIVE: of, relating to, or being a financial speculation.
 
 A spec home is a speculative venture for the builder (or in many
 
