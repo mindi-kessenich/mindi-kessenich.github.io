@@ -1,9 +1,9 @@
 ---
 author: mindi_kessenich
-date: 2019-02-19 00:00:00 -0600
+date: 2019-02-20 00:00:00 -0600
 category: my-home
 title: Spec Home Journey
-image: ''
+image: "/assets/images/1550682297910blob.jpg"
 
 ---
 Spec Home Journey
@@ -40,7 +40,7 @@ The builder we use knows enough now to up my budgets from
 
 his other investors because the details are important to me and
 
-I refuse to have a single boob light in my new builds!
+I refuse to have a single boob light in my new builds!![](/assets/images/IMG_1805.JPG)
 
 When I became a Realtor, I quickly learned the value in
 
