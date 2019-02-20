@@ -2,7 +2,6 @@
 layout: portfolio
 permalink: "/portfolio/"
 title: Project Portfolio
-published: false
 
 ---
 ##   
