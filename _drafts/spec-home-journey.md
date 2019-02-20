@@ -152,4 +152,4 @@ YOUR dream home, I can help!!
 
 Designing and redesigning spaces is my favorite thing to do.
 
-Buy, sell, build, remodel, redecorate...I’m your girl.
+Buy, sell, build, remodel, redecorate...I’m your Home Girl.
