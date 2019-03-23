@@ -6,7 +6,6 @@ title: 'Surviving Our Remodel: Supplies and Meals'
 image: "/assets/images/IMG_8741.JPG"
 
 ---
-Surviving our Remodel: Supplies and Meals
 
 First of all, I have to say that packing up my kitchen was a dream come true, in more ways than one. Obviously, I was super excited to be starting the process of gaining function and more space in the heart of my home. But I was equally excited about having the opportunity to go through every single item - EVERY ONE OF THEM - and go all Maria Kondo on them. (Insert my best hippy voice) Do I love it…..? Does it spark joy…..? And…...If it’s not a HELL YES, it’s a no. (In my very best serious entrepreneurial voice, whatever that is)
 
