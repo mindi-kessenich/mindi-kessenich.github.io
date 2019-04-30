@@ -1,6 +1,6 @@
 ---
 author: mindi_kessenich
-date: 2019-04-29 00:00:00 -0500
+date: 2019-04-30 00:00:00 -0500
 category: my-home
 title: Operation Organize Home
 image: "/assets/images/7021109458750586514.jpg"
