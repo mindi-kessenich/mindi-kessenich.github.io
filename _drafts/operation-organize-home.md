@@ -3,7 +3,7 @@ author: mindi_kessenich
 date: 2019-04-29 00:00:00 -0500
 category: my-home
 title: Operation Organize Home
-image: "/assets/images/IMG_9014.JPG"
+image: "/assets/images/7021109458750586514.jpg"
 
 ---
 I will NEVER forget the moment I drew a line in the sand. The day I came home from a week in the north woods, I shifted all of my priorities aside and swiftly moved OPERATION ORGANIZE HOME to the number one thing I will focus on until it is complete. That was last August!
