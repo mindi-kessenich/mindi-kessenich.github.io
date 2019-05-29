@@ -45,8 +45,8 @@ fields:
   description: This is the image that appears at the top of the post. Make sure to
     include this or the post won't look right!
 pages:
-- _posts/2019-02-20-spec-home-journey.md
-- _posts/2019-03-23-surviving-our-remodel-supplies-and-meals.md
 - _posts/2019-04-29-operation-organize-home.md
-- _posts/2019-01-10-the-kessenich-raised-ranch.md
+- _posts/2019-03-23-surviving-our-remodel-supplies-and-meals.md
+- _posts/2019-02-20-spec-home-journey.md
 - _posts/2019-02-08-the-kessenich-raised-ranch-part-two.md
+- _posts/2019-01-10-the-kessenich-raised-ranch.md
