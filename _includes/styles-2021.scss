@@ -1,0 +1,203 @@
+@charset "utf-8";
+
+/*** Import SASS files ***/
+@import
+  "normalize";
+
+:root {
+  --primary-color: #c94949;
+  --body-text-color: #595959;
+  font-size: 14px;
+}
+
+* { box-sizing: border-box; }
+
+body { 
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+  -webkit-box-direction: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+}
+
+h1 { font-size: 3rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+p, ul, li, span, a {
+  color: var(--body-text-color);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  margin: 0 0 0.5rem;
+}
+
+.button {
+  background-color: var(--primary-color);
+  border-color: 0.25rem solid var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  line-height: 1.5rem;
+  margin: 0.5rem 0;
+  padding: 0.75rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+
+  &--cta { border-radius: 3rem;
+  }
+
+  &:focus, &:hover { filter: brightness(125%) }
+}
+
+.overlay {
+  align-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.72);
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  h1, h2, h3, h4, h5, h6 { color: black; }
+}
+
+section {
+  &.section--hero {
+    height: 100%;
+    min-height: 100vh;
+    position: relative;
+    &--new-listing {
+      background-image: url('/assets/images/2021/mindi-new-listing.jpeg');
+      background-size: cover;
+      background-position: bottom;
+    }
+    img.hero__image {
+      height: 100vh;
+      width: 100vw;
+      object-fit: cover;
+      object-position: center center;
+    }
+    .hero__logo {
+      display: block;
+      left: 0.5rem;
+      position: absolute;
+      top: 0.25rem;
+      
+      img.hero__logo { max-width: 12rem; }
+    }
+  }
+
+  &.section--info {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem auto;
+    
+    .info__text {
+      padding: 1rem;
+      width: 100%;
+    }
+    .info__image {
+      padding: 1rem;
+      width: 100%;
+      img { 
+        display: block;
+        max-width: 100%;
+        width: 100%;
+      }
+    }
+  }
+  &.section--cta {
+    min-height: 25rem;
+    position: relative;
+    &--team {
+      background-image: url('/assets/images/2021/mr-team-photo.jpeg');
+      background-size: cover;
+      background-position: center;
+    }
+    h2 {
+      margin: 0 0 0.5rem;
+      text-align: center;
+    }
+    a.button--cta {
+      display: block;
+      margin: 0.5rem 0 0;
+    }
+  }
+}
+
+footer.site-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  padding: 1rem;
+
+  .footer__container {
+    flex: 0 0 100%;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  :root { font-size: 16px; }
+  footer.site-footer {
+    padding: 2rem;
+    .footer__container { flex: 0 0 auto; }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  :root { font-size: 18px; }
+  .overlay { padding: 0 calc((100vw - 32rem) / 2); }
+  section {
+    &.section--hero {
+      .hero__logo {
+        left: 1.25rem;
+        top: 0.625rem;
+      }
+    }
+    &.section--info {
+      .info__text { width: 39%; }
+      .info__image { width: 31%; }
+    }
+  }
+  footer.site-footer { padding: 2rem 4rem 6rem; }
+}
+
+a.footer__logo {
+  img.footer__logo-image { max-width: 15rem; }
+}
+
+.social-icons__icons {
+  a.social-icons__icon {
+    margin: 0.75rem;
+    color: #595959;
+    text-decoration: none;
+
+    &:hover, &:focus { color: #7a7a7a; }
+  }
+}

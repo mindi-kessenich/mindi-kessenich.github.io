@@ -1,0 +1,37 @@
+<head>
+  {% include 2021/analytics.html %}
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  {% include 2021/favicon.html %}
+
+  <link rel="stylesheet" href="{{ "/assets/css/main.css?" | prepend: site.baseurl }}{{ site.time | date: "%s" }}">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f0713489fc.js" crossorigin="anonymous"></script>
+
+  <meta name="referrer" content="origin">
+
+  {% feed_meta %}
+
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <title>
+    {%- if paginator and paginator.page != 1 -%}
+      {{ page.title | append: ' (Page ' | append: paginator.page | append: ')' }} | Mission Realty - Mindi Kessenich
+    {%- elsif page.title %}
+      {{ page.title }} | Mission Realty - Mindi Kessenich
+    {%- else -%}
+      Mission Realty - Mindi Kessenich | {{ site.description }}
+    {% endif %}
+  </title>
+  {% seo title=false %}
+
+  {% capture styles %}
+  {% include styles-2021.scss %}
+  {% endcapture %}
+
+  <style>
+    {{ styles | scssify }}
+  </style>
+</head>
